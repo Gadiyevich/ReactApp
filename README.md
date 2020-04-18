@@ -1,1 +1,1 @@
-Simple React todo list and data fetched from posts api
+React todos, posts and movie database application
