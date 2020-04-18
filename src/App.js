@@ -10,17 +10,28 @@ import Linkpost from './components/Linkpost';
 class App extends Component {
 
 
+
   render() {
     return (
-
       <BrowserRouter>
         <Modal />
+
+
         <div className="App">
           <Navbar />
-          <Route exact path='/' component={Todo} />
           <Route path='/Posts' component={Posts} />
-          {/* <Route path='/Contact' component={Contact} /> */}
+          <Route exact path='/' component={Todo} />
+
+          <Route
+            path="/Redirect"
+            component={() => {
+              global.window && (global.window.location.href = 'http://moviereact.tk/');
+              return null;
+            }}
+          />
           <Route path='/Posts/:post_id' component={Linkpost} />
+
+
         </div>
         <Footer />
       </BrowserRouter>

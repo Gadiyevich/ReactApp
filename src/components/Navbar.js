@@ -11,6 +11,7 @@ const Navbar = () => {
                 <ul className='right'>
                     <li><NavLink to='/'>Todo's</NavLink></li>
                     <li><NavLink to='/Posts' >Posts</NavLink></li>
+                    <li><NavLink to='/Redirect' >MovieDB</NavLink></li>
                     {/* <li><NavLink to='/Contact'>Contact</NavLink></li> */}
                 </ul>
 
