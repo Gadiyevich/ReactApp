@@ -19,9 +19,10 @@ class App extends Component {
 
         <div className="App">
           <Navbar />
-          <Route path='/Posts' component={Posts} />
           <Route exact path='/' component={Todo} />
+          <Route path='/posts' component={Posts} />
 
+          <Route path='/posts/:post_id' component={Linkpost} />
           <Route
             path="/Redirect"
             component={() => {
@@ -29,7 +30,6 @@ class App extends Component {
               return null;
             }}
           />
-          <Route path='/Posts/:post_id' component={Linkpost} />
 
 
         </div>
