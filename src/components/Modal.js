@@ -36,8 +36,9 @@ class Contact extends Component {
                     <div className="modal-content yellow accent-3">
                         <h4 className='center'>Application</h4>
                         <p className='center'>Hi there :)
-                        There is a React application that contains 3 different applications that you will see after closing this popup. The first one is simple Todo list that you can add, remove your todos.
-                        The second is Posts app and it shows you a different kind of random post data fetched using post Api.
+                        There is a React application that contains 3 different applications that you will see after closing this popup. <br />
+                        The first one is simple Todo list that you can add, remove your todos.<br />
+                        The second is Posts app and it shows you a different kind of random post data fetched using post Api.<br />
                         The third app is Movie database that shows you some rating and some information about the movie you search.</p>
                     </div>
                     <div className="modal-footer white lighten-3">
